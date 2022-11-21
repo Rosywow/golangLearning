@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = ".;todo";
+
+package todo;
+
+
+message Task {
+    string test = 1;
+    bool done = 2 ;
+}

@@ -1,0 +1,62 @@
+# GraphQL schema
+scalar Binary
+scalar Int64
+scalar Raw
+
+type Status {
+    # code, 0: success, others: fault
+    code:Int!,
+
+    # msg, action result describe by literal
+    msg:String,
+
+    # data, operand
+    data: Raw,
+
+    # rowCount, just row count
+    rowCount:Int,
+
+    # api, call target
+    api:String,
+
+    # method, using http method
+    method:String,
+
+    # sn, call order
+    sn:Int64,
+}
+
+type Todo {
+    id: ID!
+    text: String!
+    done: Boolean!
+    user: User!
+}
+
+type User {
+    id: ID!,
+    name: String!,
+    addi:Raw,
+}
+
+type Query {
+    todos: [Todo!]!,
+    login(user:inputUser):Status
+}
+
+input NewTodo {
+    text: String!
+    userId: String!
+}
+
+type Mutation {
+    createTodo(input: NewTodo!): Todo!
+}
+
+input inputUser{
+    id:ID,
+    name:String,
+    cert:String,
+    addi:Raw,
+}
+

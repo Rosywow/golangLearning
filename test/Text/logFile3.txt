@@ -1,0 +1,85 @@
+2022/11/18 21:10:34 main.go:369: 开始测试
+2022/11/18 21:11:33 main.go:369: 开始测试
+2022/11/18 21:30:55 main.go:369: 开始测试
+2022/11/18 21:31:46 main.go:369: 开始测试
+2022/11/18 21:54:13 main.go:431: 当前并发数： 4072 准备下一轮
+2022/11/18 22:27:58 main.go:369: 开始测试
+2022/11/18 22:52:51 main.go:431: 当前并发数： 4001 准备下一轮
+2022/11/18 22:56:15 main.go:369: 开始测试
+2022/11/18 23:35:06 main.go:431: 当前并发数： 9213 准备下一轮
+2022/11/19 00:11:14 main.go:431: 当前并发数： 8428 准备下一轮
+2022/11/19 00:46:07 main.go:431: 当前并发数： 8244 准备下一轮
+2022/11/19 01:04:00 main.go:431: 当前并发数： 3448 准备下一轮
+2022/11/19 04:16:00 main.go:431: 当前并发数： 6 准备下一轮
+2022/11/19 07:00:06 main.go:370: 开始测试
+2022/11/19 07:05:46 main.go:370: 开始测试
+2022/11/19 07:05:52 main.go:282: read overtime
+2022/11/19 07:05:52 main.go:282: read overtime
+2022/11/19 07:05:52 main.go:282: read overtime
+2022/11/19 07:05:52 main.go:282: read overtime
+2022/11/19 07:05:52 main.go:282: read overtime
+2022/11/19 07:05:52 main.go:282: read overtime
+2022/11/19 07:05:52 main.go:426: 当前并发数： 29 准备下一轮
+2022/11/19 07:05:53 main.go:282: read overtime
+2022/11/19 07:05:55 main.go:282: read overtime
+2022/11/19 07:05:56 main.go:282: read overtime
+2022/11/19 07:05:58 main.go:282: read overtime
+2022/11/19 07:05:59 main.go:282: read overtime
+2022/11/19 07:06:03 main.go:282: read overtime
+2022/11/19 07:06:07 main.go:282: read overtime
+2022/11/19 07:06:57 main.go:282: read overtime
+2022/11/19 07:06:57 main.go:282: read overtime
+2022/11/19 07:06:57 main.go:282: read overtime
+2022/11/19 07:06:57 main.go:282: read overtime
+2022/11/19 07:06:57 main.go:282: read overtime
+2022/11/19 07:06:57 main.go:282: read overtime
+2022/11/19 07:06:57 main.go:282: read overtime
+2022/11/19 07:06:57 main.go:426: 当前并发数： 27 准备下一轮
+2022/11/19 07:06:58 main.go:282: read overtime
+2022/11/19 07:06:59 main.go:282: read overtime
+2022/11/19 07:07:02 main.go:282: read overtime
+2022/11/19 07:07:02 main.go:282: read overtime
+2022/11/19 07:07:02 main.go:282: read overtime
+2022/11/19 07:07:03 main.go:282: read overtime
+2022/11/19 07:07:13 main.go:282: read overtime
+2022/11/19 07:07:18 main.go:282: read overtime
+2022/11/19 07:07:32 main.go:282: read overtime
+2022/11/19 07:07:42 main.go:370: 开始测试
+2022/11/19 07:07:45 main.go:282: read overtime
+2022/11/19 07:07:54 main.go:282: read overtime
+2022/11/19 07:07:54 main.go:282: read overtime
+2022/11/19 07:07:54 main.go:282: read overtime
+2022/11/19 07:07:54 main.go:282: read overtime
+2022/11/19 07:07:54 main.go:432: 当前并发数： 39 准备下一轮
+2022/11/19 07:07:56 main.go:282: read overtime
+2022/11/19 07:08:00 main.go:282: read overtime
+2022/11/19 07:08:59 main.go:282: read overtime
+2022/11/19 07:09:03 main.go:282: read overtime
+2022/11/19 07:09:03 main.go:282: read overtime
+2022/11/19 07:09:03 main.go:432: 当前并发数： 32 准备下一轮
+2022/11/19 07:09:04 main.go:282: read overtime
+2022/11/19 07:09:13 main.go:282: read overtime
+2022/11/19 07:09:15 main.go:282: read overtime
+2022/11/19 07:09:21 main.go:282: read overtime
+2022/11/19 07:09:24 main.go:282: read overtime
+2022/11/19 07:10:00 main.go:370: 开始测试
+2022/11/19 07:10:25 main.go:282: read overtime
+2022/11/19 07:10:25 main.go:282: read overtime
+2022/11/19 07:10:25 main.go:432: 当前并发数： 85 准备下一轮
+2022/11/19 07:10:28 main.go:282: read overtime
+2022/11/19 07:10:34 main.go:282: read overtime
+2022/11/19 07:10:36 main.go:282: read overtime
+2022/11/19 07:10:42 main.go:282: read overtime
+2022/11/19 07:11:30 main.go:282: read overtime
+2022/11/19 07:11:30 main.go:282: read overtime
+2022/11/19 07:11:30 main.go:282: read overtime
+2022/11/19 07:11:30 main.go:282: read overtime
+2022/11/19 07:11:30 main.go:432: 当前并发数： 19 准备下一轮
+2022/11/19 07:11:31 main.go:282: read overtime
+2022/11/19 07:11:32 main.go:282: read overtime
+2022/11/19 07:11:37 main.go:282: read overtime
+2022/11/19 07:12:09 main.go:282: read overtime
+2022/11/19 07:12:20 main.go:370: 开始测试
+2022/11/19 07:12:23 main.go:314: SignIn 超时了
+2022/11/19 07:12:24 main.go:432: 当前并发数： 0 准备下一轮
+2022/11/19 07:12:25 main.go:314: SignIn 超时了

@@ -1,0 +1,58 @@
+2022/11/18 12:41:47 main.go:369: 开始测试
+2022/11/18 12:41:55 main.go:313: UploadFile 超时了
+2022/11/18 12:41:55 main.go:421: 当前并发数： 434 准备下一轮
+2022/11/18 12:41:57 main.go:313: UploadFile 超时了
+2022/11/18 12:41:57 main.go:313: UploadFile 超时了
+2022/11/18 12:41:57 main.go:313: UploadFile 超时了
+2022/11/18 12:43:07 main.go:313: UploadFile 超时了
+2022/11/18 12:43:07 main.go:313: UploadFile 超时了
+2022/11/18 12:43:07 main.go:421: 当前并发数： 668 准备下一轮
+2022/11/18 12:43:08 main.go:313: UploadFile 超时了
+2022/11/18 12:44:13 main.go:313: UploadFile 超时了
+2022/11/18 12:44:14 main.go:421: 当前并发数： 271 准备下一轮
+2022/11/18 12:44:14 main.go:313: Login 超时了
+2022/11/18 12:44:14 main.go:313: UploadFile 超时了
+2022/11/18 12:45:20 main.go:313: UploadFile 超时了
+2022/11/18 12:45:20 main.go:421: 当前并发数： 282 准备下一轮
+2022/11/18 12:45:20 main.go:313: UploadFile 超时了
+2022/11/18 12:45:20 main.go:313: Login 超时了
+2022/11/18 12:45:21 main.go:313: UploadFile 超时了
+2022/11/18 12:45:22 main.go:313: UploadFile 超时了
+2022/11/18 12:46:27 main.go:313: UploadFile 超时了
+2022/11/18 12:46:27 main.go:421: 当前并发数： 258 准备下一轮
+2022/11/18 12:46:27 main.go:313: SignIn 超时了
+2022/11/18 12:46:27 main.go:313: UploadFile 超时了
+2022/11/18 12:46:28 main.go:313: UploadFile 超时了
+2022/11/18 12:46:28 main.go:313: UploadFile 超时了
+2022/11/18 12:46:28 main.go:313: UploadFile 超时了
+2022/11/18 12:46:28 main.go:313: Login 超时了
+2022/11/18 12:46:28 main.go:313: UploadFile 超时了
+2022/11/18 12:46:28 main.go:313: SignIn 超时了
+2022/11/18 12:46:28 main.go:313: UploadFile 超时了
+2022/11/18 12:46:29 main.go:313: UploadFile 超时了
+2022/11/18 12:46:29 main.go:313: SignIn 超时了
+2022/11/18 12:46:29 main.go:313: SignIn 超时了
+2022/11/18 12:46:29 main.go:313: UploadFile 超时了
+2022/11/18 12:47:33 main.go:313: UploadFile 超时了
+2022/11/18 12:47:33 main.go:421: 当前并发数： 281 准备下一轮
+2022/11/18 12:47:34 main.go:313: UploadFile 超时了
+2022/11/18 12:47:34 main.go:313: UploadFile 超时了
+2022/11/18 12:48:39 main.go:313: SignIn 超时了
+2022/11/18 12:48:39 main.go:421: 当前并发数： 227 准备下一轮
+2022/11/18 12:48:39 main.go:313: UploadFile 超时了
+2022/11/18 12:49:46 main.go:313: UploadFile 超时了
+2022/11/18 12:49:46 main.go:313: UploadFile 超时了
+2022/11/18 12:49:46 main.go:421: 当前并发数： 323 准备下一轮
+2022/11/18 12:49:46 main.go:313: UploadFile 超时了
+2022/11/18 12:49:46 main.go:313: SignIn 超时了
+2022/11/18 12:49:47 main.go:313: SignIn 超时了
+2022/11/18 12:49:47 main.go:313: UploadFile 超时了
+2022/11/18 12:49:48 main.go:313: Login 超时了
+2022/11/18 12:50:51 main.go:313: UploadFile 超时了
+2022/11/18 12:50:51 main.go:421: 当前并发数： 213 准备下一轮
+2022/11/18 12:50:52 main.go:313: UploadFile 超时了
+2022/11/18 12:50:52 main.go:313: UploadFile 超时了
+2022/11/18 12:51:56 main.go:313: SignIn 超时了
+2022/11/18 12:51:56 main.go:421: 当前并发数： 208 准备下一轮
+2022/11/18 12:51:56 main.go:313: UploadFile 超时了
+2022/11/18 12:51:58 main.go:313: UploadFile 超时了

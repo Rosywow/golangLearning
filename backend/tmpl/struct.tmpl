@@ -1,0 +1,61 @@
+/*{{.Struct.Name}} {{ .Struct.Comment}} represents {{ .Struct.Table.Schema }}.{{ .Struct.Table.Name }} */
+type {{ .Struct.Name }} struct {
+{{- range .Struct.Fields }}
+	{{ .Name }} {{ .Type }}  `json:"{{.Name}},omitempty" db:"{{.Column.Name}},{{.Column.IsPrimaryKey}},{{.Column.DataType}}"`/* {{ .Column.Name }} {{.Comment}} */
+{{- end }}
+filter // build DML where clause
+}
+
+//{{.Struct.Name}}Fields full field list for default query
+var {{.Struct.Name}}Fields = []string {
+{{- range .Struct.Fields }}
+	"{{.Name}}",
+{{- end }}
+}
+
+//Fields return all fields of struct.
+func (r *{{ .Struct.Name }})Fields() []string{
+	return {{.Struct.Name}}Fields
+}
+
+
+
+
+//GetTableName return the associated db table name.
+func (r *{{ .Struct.Name }})GetTableName() string{
+  var viewNamePattern = regexp.MustCompile(`(?i)^t_v_[a-z0-9_]+$`)
+  tableName:="{{.Struct.Table.Name}}"
+  if viewNamePattern.MatchString(tableName){
+    return tableName[2:]
+  }
+	return tableName
+}
+
+// Create inserts the {{ .Struct.Name }} to the database.
+func (r *{{ .Struct.Name }}) Create(db Queryer) error {
+    {{- if .Struct.Table.AutoGenPk }}
+        err := db.QueryRow(
+            `{{ createInsertSQL .Struct }}`,
+            {{ createInsertParams .Struct }}).Scan({{ createInsertScan .Struct }})
+    {{- else }}
+        _, err := db.Exec(
+            `{{ createInsertSQL .Struct }}`,
+            {{ createInsertParams .Struct }})
+    {{- end }}
+	if err != nil {
+        return errors.Wrap(err, "failed to insert {{ .Struct.Table.Name }}")
+	}
+	return nil
+}
+
+// Get{{ .Struct.Name }}ByPk select the {{ .Struct.Name }} from the database.
+func Get{{ .Struct.Name }}ByPk(db Queryer, {{ createSelectByPkFuncParams .Struct }}) (*{{ .Struct.Name }}, error) {
+    var r {{ .Struct.Name }}
+    err := db.QueryRow(
+        `{{ createSelectByPkSQL .Struct }}`,
+        {{ createSelectByPkSQLParams .Struct }}).Scan({{ createSelectByPkScan .Struct }})
+	if err != nil {
+        return nil, errors.Wrap(err, "failed to select {{ .Struct.Table.Name }}")
+	}
+	return &r, nil
+}

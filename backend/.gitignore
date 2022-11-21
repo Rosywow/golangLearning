@@ -1,0 +1,7 @@
+w2w.io
+w2w.io.exe
+.DS_Store
+logs/
+*.pid
+sys.db
+go_build_w2w_io

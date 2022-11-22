@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = ".;todo";
+
+package todo;
+
+message Task {
+    string text = 1;
+    bool done = 2;
+}
+
+message TaskList {
+    repeated Task tasks = 1;
+}
+
+message Text {
+    string text = 1;
+}
+
+message Void {}
+
+service Tasks {
+    rpc List(Void) returns(TaskList) {}
+    rpc Add(Text) returns(Task) {}
+}
